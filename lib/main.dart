@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ElevatedButton(onPressed: () {
                 showDialog(context: context, builder: (context) {
                   return AlertDialog(
-                    title: Text("Delete Account"),
+                    title: Text("Delete "),
                     content: Text("Are You Sure that You want to delete your account"),
                     actions: [
 
