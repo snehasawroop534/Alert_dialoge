@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Navigator.pop(context);
                       }, child: Text("No")),
                       ElevatedButton(onPressed: () {
-                        Fluttertoast.showToast(msg: "Account deleted successfully");
+                        Fluttertoast.showToast(msg: "Account not delete successfully");
                         Navigator.pop(context);
                       }, child: Text("Yes")),
                     ],
